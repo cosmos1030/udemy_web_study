@@ -8,7 +8,7 @@
 ## make database
 -use [dbNameHere]
 
-#CRUD
+# CRUD
 ## Create
 -db.[collectionNameHere].insertOne({_id: 1, name="nameHere"})
 
