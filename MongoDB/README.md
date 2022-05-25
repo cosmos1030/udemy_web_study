@@ -3,9 +3,10 @@
 - mongo
 
 ## check databases
+- show dbs
 - db
 
-## make database
+## get into database
 - use [dbNameHere]
 
 # CRUD
@@ -14,3 +15,4 @@
 
 ## Find
 - db.[collectionNameHere].find()
+- db.[collectionNameHere].find({_id: 1})
