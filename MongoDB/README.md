@@ -1,16 +1,16 @@
 ## starting mongoDB
--mongod
--mongo
+- mongod
+- mongo
 
 ## check databases
--db
+- db
 
 ## make database
--use [dbNameHere]
+- use [dbNameHere]
 
 # CRUD
 ## Create
--db.[collectionNameHere].insertOne({_id: 1, name="nameHere"})
+- db.[collectionNameHere].insertOne({_id: 1, name="nameHere"})
 
 ## Find
--db.[collectionNameHere].find()
+- db.[collectionNameHere].find()
